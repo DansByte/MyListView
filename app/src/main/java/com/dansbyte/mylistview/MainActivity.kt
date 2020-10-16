@@ -1,11 +1,16 @@
+package com.dansbyte.mylistview;
+
 import android.content.res.TypedArray
 import android.os.Bundle
+import android.view.View
+import android.view.View.OnClickListener
 import android.widget.AdapterView
 import android.widget.ListView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.dansbyte.mylistview.R
-import com.example.mylistview.Hero
+import com.dansbyte.mylistview.Hero
+import com.dansbyte.mylistview.HeroAdapter
 
 class MainActivity : AppCompatActivity() {
 
@@ -51,4 +56,5 @@ class MainActivity : AppCompatActivity() {
         }
         adapter.heroes = heroes
     }
+
 }

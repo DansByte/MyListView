@@ -1,3 +1,5 @@
+package com.dansbyte.mylistview;
+
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +8,7 @@ import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
 import com.dansbyte.mylistview.R
-import com.example.mylistview.Hero
+import com.dansbyte.mylistview.Hero
 
 class HeroAdapter internal constructor(private val context: Context) : BaseAdapter() {
     internal var heroes = arrayListOf<Hero>()
